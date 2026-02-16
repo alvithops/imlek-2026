@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Imlek 2026 · 17 Februari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- kedua video background (berjalan bersama) -->
+  <div class="video-background">
+    <video class="video-bg video1" autoplay loop muted playsinline>
+      <source src="assets/video/barongsai1.mp4" type="video/mp4">
+    </video>
+    <video class="video-bg video2" autoplay loop muted playsinline>
+      <source src="assets/video/barongsai2.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- overlay gelap tipis supaya teks jelas -->
+  <div class="overlay"></div>
+
+  <!-- konten utama -->
+  <main class="content">
+    <h1 class="title-glow">SELAMAT TAHUN BARU IMLEK</h1>
+    <div class="sub-title">17 Februari 2026</div>
+
+    <!-- 4 harapan dengan ikon sederhana (teks) -->
+    <div class="wish-grid">
+      <div class="wish-item">🌾 Kemakmuran</div>
+      <div class="wish-item">💪 Kesehatan</div>
+      <div class="wish-item">🍀 Keberuntungan</div>
+      <div class="wish-item">👨‍👩‍👧‍👦 Kebahagiaan keluarga</div>
+    </div>
+
+    <!-- ornamen lentera (goyang) dan koin/awan dihasilkan CSS, tapi kita tambah gambar ekstra jika ada -->
+    <div class="ornament-lantern lantern-left"></div>
+    <div class="ornament-lantern lantern-right"></div>
+    <div class="coin-ornament"></div>
+    <div class="cloud-ornament cloud1"></div>
+    <div class="cloud-ornament cloud2"></div>
+
+    <!-- partikel kembang api sederhana (javascript nanti) -->
+    <canvas id="fireworks-canvas"></canvas>
+  </main>
+
+  <!-- audio imlek – dipaksa play via js -->
+  <audio id="imlekAudio" loop preload="auto">
+    <source src="assets/audio/imlek-audio.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
