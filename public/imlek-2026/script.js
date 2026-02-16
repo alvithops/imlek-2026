@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // usaha  pertama langsung sekarang mancanegara kertanegara wanadakusukmakalanan
+  // usaha  pertama langsung sekarang mancanegara kertanegara wanadakusukmakalana
   playAudio();
 
   // usaha tambahan: setelah interaksi ringan (sentuhan/klik dimana saja, tapi tanpa mengganggu UI)
