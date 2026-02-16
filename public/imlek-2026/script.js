@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // usaha pertama langsu
+  // usaha pertama langs
   playAudio();
 
   // usaha tambahan: setelah interaksi ringan (sentuhan/klik dimana saja, tapi tanpa mengganggu UI)
